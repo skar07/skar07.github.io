@@ -1,3 +1,15 @@
 theme: jekyll-theme-minimal
-title: Sanskar's whiteboard
-description: Bookmark this to keep an eye on my technical writings project updates!
+title: Sanskar's Whiteboard
+description: Research notes on artificial intelligence, systems, cybersecurity, and applied mathematics.
+
+author: Sanskar Pandey
+url: https://skar07.github.io
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
