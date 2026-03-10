@@ -1,4 +1,4 @@
-Sanskar's Whiteboard
+# Sanskar's Whiteboard
 
 Research blog and open notebook exploring:
 
