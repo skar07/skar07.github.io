@@ -34,7 +34,7 @@ Some posts may present exploratory ideas, while others may take the form of rese
 
 Posts on this blog may explore topics such as:
 
-- Artificial intelligence and machine learning
+- Machine learning and artificial intelligence systems
 - Interpretability and understanding learned representations
 - Behavioral analysis of software and malware
 - Program analysis and operating system telemetry
@@ -92,7 +92,7 @@ I'm interested in exploring problems at the intersection of:
 
 - interpretability
 - AI-driven security
-- machine learning/artificial intelligence
+- machine learning and artificial intelligence
 - systems design
 - applied mathematics
 
@@ -100,14 +100,51 @@ This blog serves as a public notebook for those explorations.
 
 ---
 
+## Research Directions
+
+Current research directions I’m exploring include:
+
+- Geometric and topological approaches to modeling software and system behavior
+- Behavioral trajectory modeling for malware detection and security systems
+- Structural learning systems where model architecture emerges from constraints or invariants
+- Alternative inference layers and mechanisms for large language models
+- Interpretability and understanding learned representations in AI systems
+- Theoretical perspectives on machine learning and AI systems
+
+---
+
 ## Preprints & Technical Notes
 
 A selection of technical notes and preprints associated with ideas discussed on this blog.
 
-- **Title of Your Preprint** (2026)  
+- **Invariant-Driven Structural Learning for Language Modeling** (2026)  
   [Zenodo Record](https://zenodo.org/records/18173514) | [PDF](https://zenodo.org/records/18173514/files/Invariant_Driven_Structural_Learning_for_Language_Modeling%20(2).pdf)
 
-Additional technical notes and preprints will be added as they are developed.
+Additional technical notes and preprints will be added as new work develops.
+
+---
+
+## Citation
+
+If you reference ideas from this blog, please cite the relevant post, writeup, or associated preprint.
+
+General citation format:
+
+Pandey, Sanskar. "<Title of Post or Writeup>."  
+*Sanskar's Whiteboard*, Year.  
+Available at: https://skar07.github.io/...
+
+When a formal preprint is available, please cite the Zenodo version linked in the post.
+
+BibTeX template:
+
+@misc{pandey_whiteboard,
+  author = {Pandey, Sanskar},
+  title = {Title of Post or Writeup},
+  year = {Year},
+  howpublished = {\url{https://skar07.github.io}},
+  url = {https://skar07.github.io/...}
+}
 
 ---
 
