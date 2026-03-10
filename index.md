@@ -7,7 +7,7 @@ title: Sanskar's Whiteboard
 
 **Research notes on systems, artificial intelligence, interpretability, applied mathematics, and ideas worth exploring.**
 
-Welcome to *Sanskar's Whiteboard*, a technical blog where I explore research ideas and system designs at the intersection of:
+Welcome to _Sanskar's Whiteboard_, a technical blog where I explore research ideas and system designs at the intersection of:
 
 - Machine learning and AI
 - Systems architecture
@@ -67,6 +67,26 @@ The central idea:
 
 > Malware can mutate its code, but it is much harder to mutate the geometry of its behavior.
 
+### Posts in this series
+
+{% for post in site.categories.research %}
+
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %d, %Y" }}
+  {% endfor %}
+
+---
+
+## Research Writings
+
+Technical essays, research notes, and conceptual explorations published on this blog.
+
+{% for post in site.posts %}
+
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %d, %Y" }}
+  {% endfor %}
+
+These posts often explore ideas that may later develop into technical reports, research papers, or experimental systems.
+
 ---
 
 ## Structure of the Blog
@@ -123,7 +143,7 @@ Current research directions I’m exploring include:
 A selection of technical notes and preprints associated with ideas discussed on this blog.
 
 - **Invariant-Driven Structural Learning for Language Modeling** (2026)  
-  [Zenodo Record](https://zenodo.org/records/18173514) | [PDF](https://zenodo.org/records/18173514/files/Invariant_Driven_Structural_Learning_for_Language_Modeling%20(2).pdf)
+  [Zenodo Record](https://zenodo.org/records/18173514) | [PDF](<https://zenodo.org/records/18173514/files/Invariant_Driven_Structural_Learning_for_Language_Modeling%20(2).pdf>)
 
 Additional technical notes and preprints will be added as new work develops.
 
@@ -136,7 +156,7 @@ If you reference ideas from this blog, please cite the relevant post, writeup, o
 General citation format:
 
 Pandey, Sanskar. "<Title of Post or Writeup>."  
-*Sanskar's Whiteboard*, Year.  
+_Sanskar's Whiteboard_, Year.  
 Available at: https://skar07.github.io/...
 
 When a formal preprint is available, please cite the Zenodo version linked in the post.
@@ -144,11 +164,11 @@ When a formal preprint is available, please cite the Zenodo version linked in th
 BibTeX template:
 
 @misc{pandey_whiteboard,
-  author = {Pandey, Sanskar},
-  title = {Title of Post or Writeup},
-  year = {Year},
-  howpublished = {\url{https://skar07.github.io}},
-  url = {https://skar07.github.io/...}
+author = {Pandey, Sanskar},
+title = {Title of Post or Writeup},
+year = {Year},
+howpublished = {\url{https://skar07.github.io}},
+url = {https://skar07.github.io/...}
 }
 
 ---
