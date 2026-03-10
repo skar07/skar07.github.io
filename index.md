@@ -155,7 +155,7 @@ If you reference ideas from this blog, please cite the relevant post, writeup, o
 
 General citation format:
 
-Pandey, Sanskar. "<Title of Post or Writeup>."  
+Pandey, Sanskar. "_Title of Post or Writeup_."  
 _Sanskar's Whiteboard_, Year.  
 Available at: https://skar07.github.io/...
 
